@@ -1,7 +1,7 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
-canvas.width = 500;
-canvas.height = 500;
+canvas.height = 1000
+canvas.width = 1000
 const BLOCKY= canvas.height/3;
 const BLOCKX= canvas.width/3;
 const CENTER = [1.5, 1.5, 1.5]
